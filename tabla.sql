@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS `red` (
-`id` int(11) NOT NULL PRIMARY KEY,
+`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `nombre` varchar(100) NOT NULL,
   `post` varchar(1000) NOT NULL,
   `img` varchar(100) NOT NULL
